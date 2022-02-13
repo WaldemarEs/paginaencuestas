@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuestas</title>
+    <link rel="stylesheet" href="declaracion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Festive&family=Indie+Flower&display=swap" rel="stylesheet">
+    
+</head>
+<body class="contain-flex">
+    <form class="fonts-item-1" id="survey-form">
+        <div>
+        <h1 id="title">Ayudanos a mejorar</h1>
+      <p id="description">Encuesta para nuevos juegores</p>
+        </div>
+        <p>
+        <label id="name-label" for="name">Nombre</br> </label>
+        <input style="width: 370px"type="text" id="name" name="name" placeholder="Escriba su nombre" required>
+        </p>
+        <p>
+        <label id="email-label" for="email"> Email</br> </label> 
+          <input style="width: 370px" type="email" id="email" name="email" placeholder="Escriba su Email" required>
+        </p>
+        <p>
+          <label id="number-label" for="number">Edad </br></label>
+          <input style="width: 370px" type="number" placeholder="Edad" id="number" name="number" min="18" max="99">
+        </p>
+        
+        <p>
+          <label for="menu">Elige con cual rol te sientes mejor</label>
+          <select name="menu" id="dropdown">
+            <option>...</option>
+            <option>Mid</option>
+            <option>Jungla</option>
+            <option>Tank</option>
+            <option>Tirador</option>
+            <option>Soporte</option>
+          </select>
+        </p>
+      
+        <p class="selector">
+          <label for="name">Nivel de experiencia: </label>
+          <input type="radio" name="name" value="1" checked> Ninguna 
+          <input type="radio" name="name" value="2"> Un poco 
+          <input type="radio" name="name" value="3"> Mucha 
+          <input type="radio" name="name" value="4"> Muchisima 
+        </p>
+      <p>
+        <label for="checkbox">Por favor identifica en que lugares juegas con frecuencia</label></br>
+        <input type="checkbox" value="1"> En la escuela.
+      </br> <input type="checkbox" value="2"> En el parque
+      </br> <input type="checkbox" value="3"> En la cama
+      </br> <input type="checkbox" value="4"> En el bus
+      </br> <input type="checkbox" value="5"> En el baño
+      </br> <input type="checkbox" value="6" checked> En ninguno
+      </p>
+      <p>
+        <label>Quisieras agregar algo que podamos mejorar</label></br>
+        <textarea name="texto" rows="5" cols="55" placeholder="Escriba aqui"></textarea>
+      </p>
+      <p>
+        <label for="enviar"></label>
+        <input id="submit" type="submit" value="Enviar">
+      </p>
+      </form>
+      
+      <div class="item-2"></div>
+      
+      
+</body>
+</html>

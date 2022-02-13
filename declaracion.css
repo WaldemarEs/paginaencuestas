@@ -1,0 +1,42 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: aliceblue;
+}
+.contain-flex {
+  display: flex;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+#title {
+  text-align: center;
+}
+.fonts-item-1 {
+  background: linear-gradient(to bottom, #000046, #0b9ddb, #1e313a);
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  font-family: "Indie Flower";
+  margin: 20px 0 20px 0;
+}
+
+#description {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+input,
+select,
+textarea {
+  font-family: "Indie Flower";
+  font-weight: 500;
+  border-radius: 3px;
+}
+.selector {
+  display: flex;
+  flex-wrap: wrap;
+}
